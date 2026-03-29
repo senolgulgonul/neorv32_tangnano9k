@@ -1,0 +1,382 @@
+[
+ {
+  "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_test_setup_bootloader.vhd",
+  "InstLine" : 18,
+  "InstName" : "neorv32_test_setup_bootloader",
+  "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_test_setup_bootloader.vhd",
+  "ModuleLine" : 18,
+  "ModuleName" : "neorv32_test_setup_bootloader",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_test_setup_bootloader.vhd",
+    "InstLine" : 45,
+    "InstName" : "neorv32_top_inst",
+    "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_top.vhd",
+    "ModuleLine" : 21,
+    "ModuleName" : "neorv32_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_top.vhd",
+      "InstLine" : 433,
+      "InstName" : "soc_generators.neorv32_sys_reset_inst",
+      "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_sys.vhd",
+      "ModuleLine" : 17,
+      "ModuleName" : "neorv32_sys_reset"
+     },
+     {
+      "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_top.vhd",
+      "InstLine" : 446,
+      "InstName" : "soc_generators.neorv32_sys_clock_inst",
+      "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_sys.vhd",
+      "ModuleLine" : 97,
+      "ModuleName" : "neorv32_sys_clock"
+     },
+     {
+      "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_top.vhd",
+      "InstLine" : 484,
+      "InstName" : "core_complex_gen[0].neorv32_cpu_inst",
+      "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_cpu.vhd",
+      "ModuleLine" : 21,
+      "ModuleName" : "neorv32_cpu",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_cpu.vhd",
+        "InstLine" : 212,
+        "InstName" : "neorv32_cpu_frontend_inst",
+        "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_cpu_frontend.vhd",
+        "ModuleLine" : 22,
+        "ModuleName" : "neorv32_cpu_frontend",
+        "SubInsts" : [
+         {
+          "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_cpu_frontend.vhd",
+          "InstLine" : 184,
+          "InstName" : "prefetch_buffer[0].ipb_inst",
+          "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_cpu_frontend.vhd",
+          "ModuleLine" : 326,
+          "ModuleName" : "neorv32_cpu_frontend_ipb"
+         },
+         {
+          "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_cpu_frontend.vhd",
+          "InstLine" : 184,
+          "InstName" : "prefetch_buffer[1].ipb_inst",
+          "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_cpu_frontend.vhd",
+          "ModuleLine" : 326,
+          "ModuleName" : "neorv32_cpu_frontend_ipb"
+         },
+         {
+          "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_cpu_frontend.vhd",
+          "InstLine" : 214,
+          "InstName" : "issue_enabled.neorv32_cpu_decompressor_inst",
+          "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_cpu_decompressor.vhd",
+          "ModuleLine" : 21,
+          "ModuleName" : "neorv32_cpu_decompressor"
+         }
+        ]
+       },
+       {
+        "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_cpu.vhd",
+        "InstLine" : 237,
+        "InstName" : "neorv32_cpu_control_inst",
+        "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_cpu_control.vhd",
+        "ModuleLine" : 18,
+        "ModuleName" : "neorv32_cpu_control"
+       },
+       {
+        "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_cpu.vhd",
+        "InstLine" : 352,
+        "InstName" : "cnts_enabled.neorv32_cpu_counters_inst",
+        "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_cpu_counters.vhd",
+        "ModuleLine" : 23,
+        "ModuleName" : "neorv32_cpu_counters",
+        "SubInsts" : [
+         {
+          "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_cpu_counters.vhd",
+          "InstLine" : 197,
+          "InstName" : "base_enabled.cycle_inst",
+          "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_prim.vhd",
+          "ModuleLine" : 332,
+          "ModuleName" : "neorv32_prim_cnt"
+         },
+         {
+          "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_cpu_counters.vhd",
+          "InstLine" : 215,
+          "InstName" : "base_enabled.instret_inst",
+          "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_prim.vhd",
+          "ModuleLine" : 332,
+          "ModuleName" : "neorv32_prim_cnt"
+         }
+        ]
+       },
+       {
+        "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_cpu.vhd",
+        "InstLine" : 379,
+        "InstName" : "neorv32_cpu_regfile_inst",
+        "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_cpu_regfile.vhd",
+        "ModuleLine" : 28,
+        "ModuleName" : "neorv32_cpu_regfile"
+       },
+       {
+        "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_cpu.vhd",
+        "InstLine" : 402,
+        "InstName" : "neorv32_cpu_alu_inst",
+        "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_cpu_alu.vhd",
+        "ModuleLine" : 18,
+        "ModuleName" : "neorv32_cpu_alu",
+        "SubInsts" : [
+         {
+          "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_cpu_alu.vhd",
+          "InstLine" : 144,
+          "InstName" : "neorv32_cpu_alu_shifter_inst",
+          "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_cpu_alu_shifter.vhd",
+          "ModuleLine" : 21,
+          "ModuleName" : "neorv32_cpu_alu_shifter"
+         },
+         {
+          "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_cpu_alu.vhd",
+          "InstLine" : 165,
+          "InstName" : "neorv32_cpu_alu_muldiv_enabled.neorv32_cpu_alu_muldiv_inst",
+          "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_cpu_alu_muldiv.vhd",
+          "ModuleLine" : 23,
+          "ModuleName" : "neorv32_cpu_alu_muldiv"
+         }
+        ]
+       },
+       {
+        "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_cpu.vhd",
+        "InstLine" : 446,
+        "InstName" : "neorv32_cpu_lsu_inst",
+        "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_cpu_lsu.vhd",
+        "ModuleLine" : 18,
+        "ModuleName" : "neorv32_cpu_lsu"
+       }
+      ]
+     },
+     {
+      "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_top.vhd",
+      "InstLine" : 619,
+      "InstName" : "core_complex_gen[0].neorv32_core_bus_switch_inst",
+      "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_bus.vhd",
+      "ModuleLine" : 17,
+      "ModuleName" : "neorv32_bus_switch"
+     },
+     {
+      "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_top.vhd",
+      "InstLine" : 779,
+      "InstName" : "neorv32_bus_gateway_inst",
+      "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_bus.vhd",
+      "ModuleLine" : 266,
+      "ModuleName" : "neorv32_bus_gateway"
+     },
+     {
+      "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_top.vhd",
+      "InstLine" : 828,
+      "InstName" : "memory_system.neorv32_imem_enabled.neorv32_imem_inst",
+      "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_imem.vhd",
+      "ModuleLine" : 17,
+      "ModuleName" : "neorv32_imem",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_imem.vhd",
+        "InstLine" : 100,
+        "InstName" : "imem_ram.imem_ram_inst",
+        "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_imem_ram.vhd",
+        "ModuleLine" : 20,
+        "ModuleName" : "neorv32_imem_ram",
+        "SubInsts" : [
+         {
+          "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_imem_ram.vhd",
+          "InstLine" : 45,
+          "InstName" : "ram_gen[0].ram_inst",
+          "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_prim.vhd",
+          "ModuleLine" : 168,
+          "ModuleName" : "neorv32_prim_spram"
+         },
+         {
+          "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_imem_ram.vhd",
+          "InstLine" : 45,
+          "InstName" : "ram_gen[1].ram_inst",
+          "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_prim.vhd",
+          "ModuleLine" : 168,
+          "ModuleName" : "neorv32_prim_spram"
+         },
+         {
+          "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_imem_ram.vhd",
+          "InstLine" : 45,
+          "InstName" : "ram_gen[2].ram_inst",
+          "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_prim.vhd",
+          "ModuleLine" : 168,
+          "ModuleName" : "neorv32_prim_spram"
+         },
+         {
+          "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_imem_ram.vhd",
+          "InstLine" : 45,
+          "InstName" : "ram_gen[3].ram_inst",
+          "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_prim.vhd",
+          "ModuleLine" : 168,
+          "ModuleName" : "neorv32_prim_spram"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_top.vhd",
+      "InstLine" : 851,
+      "InstName" : "memory_system.neorv32_dmem_enabled.neorv32_dmem_inst",
+      "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_dmem.vhd",
+      "ModuleLine" : 17,
+      "ModuleName" : "neorv32_dmem",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_dmem.vhd",
+        "InstLine" : 64,
+        "InstName" : "dmem_ram_inst",
+        "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_dmem_ram.vhd",
+        "ModuleLine" : 20,
+        "ModuleName" : "neorv32_dmem_ram",
+        "SubInsts" : [
+         {
+          "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_dmem_ram.vhd",
+          "InstLine" : 47,
+          "InstName" : "ram_gen[0].ram_inst",
+          "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_prim.vhd",
+          "ModuleLine" : 168,
+          "ModuleName" : "neorv32_prim_spram"
+         },
+         {
+          "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_dmem_ram.vhd",
+          "InstLine" : 47,
+          "InstName" : "ram_gen[1].ram_inst",
+          "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_prim.vhd",
+          "ModuleLine" : 168,
+          "ModuleName" : "neorv32_prim_spram"
+         },
+         {
+          "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_dmem_ram.vhd",
+          "InstLine" : 47,
+          "InstName" : "ram_gen[2].ram_inst",
+          "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_prim.vhd",
+          "ModuleLine" : 168,
+          "ModuleName" : "neorv32_prim_spram"
+         },
+         {
+          "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_dmem_ram.vhd",
+          "InstLine" : 47,
+          "InstName" : "ram_gen[3].ram_inst",
+          "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_prim.vhd",
+          "ModuleLine" : 168,
+          "ModuleName" : "neorv32_prim_spram"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_top.vhd",
+      "InstLine" : 921,
+      "InstName" : "io_system.neorv32_bus_io_switch_inst",
+      "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_bus.vhd",
+      "ModuleLine" : 469,
+      "ModuleName" : "neorv32_bus_io_switch",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_bus.vhd",
+        "InstLine" : 590,
+        "InstName" : "neorv32_bus_reg_inst",
+        "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_bus.vhd",
+        "ModuleLine" : 173,
+        "ModuleName" : "neorv32_bus_reg"
+       }
+      ]
+     },
+     {
+      "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_top.vhd",
+      "InstLine" : 1000,
+      "InstName" : "io_system.neorv32_bootrom_enabled.neorv32_boot_rom_inst",
+      "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_bootrom.vhd",
+      "ModuleLine" : 17,
+      "ModuleName" : "neorv32_bootrom",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_bootrom.vhd",
+        "InstLine" : 54,
+        "InstName" : "bootrom_rom_inst",
+        "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_bootrom_rom.vhd",
+        "ModuleLine" : 21,
+        "ModuleName" : "neorv32_bootrom_rom"
+       }
+      ]
+     },
+     {
+      "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_top.vhd",
+      "InstLine" : 1069,
+      "InstName" : "io_system.neorv32_gpio_enabled.neorv32_gpio_inst",
+      "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_gpio.vhd",
+      "ModuleLine" : 17,
+      "ModuleName" : "neorv32_gpio"
+     },
+     {
+      "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_top.vhd",
+      "InstLine" : 1121,
+      "InstName" : "io_system.neorv32_clint_enabled.neorv32_clint_inst",
+      "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_clint.vhd",
+      "ModuleLine" : 21,
+      "ModuleName" : "neorv32_clint",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_clint.vhd",
+        "InstLine" : 82,
+        "InstName" : "neorv32_clint_mtime_inst",
+        "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_prim.vhd",
+        "ModuleLine" : 332,
+        "ModuleName" : "neorv32_prim_cnt"
+       },
+       {
+        "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_clint.vhd",
+        "InstLine" : 123,
+        "InstName" : "neorv32_clint_mtimecmp_gen[0].neorv32_clint_mtimecmp_inst",
+        "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_clint.vhd",
+        "ModuleLine" : 218,
+        "ModuleName" : "neorv32_clint_mtimecmp"
+       }
+      ]
+     },
+     {
+      "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_top.vhd",
+      "InstLine" : 1148,
+      "InstName" : "io_system.neorv32_uart0_enabled.neorv32_uart0_inst",
+      "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_uart.vhd",
+      "ModuleLine" : 24,
+      "ModuleName" : "neorv32_uart",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_uart.vhd",
+        "InstLine" : 183,
+        "InstName" : "tx_engine_fifo_inst",
+        "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_prim.vhd",
+        "ModuleLine" : 24,
+        "ModuleName" : "neorv32_prim_fifo"
+       },
+       {
+        "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_uart.vhd",
+        "InstLine" : 212,
+        "InstName" : "rx_engine_fifo_inst",
+        "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_prim.vhd",
+        "ModuleLine" : 24,
+        "ModuleName" : "neorv32_prim_fifo"
+       }
+      ]
+     },
+     {
+      "InstFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_top.vhd",
+      "InstLine" : 1490,
+      "InstName" : "io_system.neorv32_sysinfo_inst",
+      "ModuleFile" : "D:/docs/ostim/digital/gowin/neorv32_tangnano9k/src/neorv32_sysinfo.vhd",
+      "ModuleLine" : 18,
+      "ModuleName" : "neorv32_sysinfo"
+     }
+    ]
+   }
+  ]
+ }
+]
